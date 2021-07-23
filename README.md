@@ -7,7 +7,7 @@ sudo yum install nodejs
 ```
 + if you plan to use any nodes  beyond the core (Db2  for example), you will  need build utilities (make, gcc, etc)
 ```
-sudo yum install "Developer Tools"
+sudo yum groupinstall "Developer Tools"
 ```
 + use the linux install script provided by the Node-RED project [installer](https://github.com/node-red/linux-installers) and select appropriate distribution
   + rpm/yum
